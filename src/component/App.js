@@ -33,7 +33,7 @@ export default class App extends React.Component {
     console.log(this.state.count);
     this.setState({count: this.state.count + 1});
     this.performSort();
-    if(this.state.count==200){
+    if(this.state.count==500){
       clearInterval(this.state.intervalId);
       this.setState({count: 0});
     }
