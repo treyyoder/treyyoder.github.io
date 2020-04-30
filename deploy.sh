@@ -6,3 +6,4 @@ git pull
 git branch -D master
 git branch -m gh-pages master
 git push origin HEAD
+git checkout milestone
