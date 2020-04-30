@@ -22,7 +22,7 @@ export default class App extends React.Component {
   handleGenClick = () => {
      var items = [];
 
-    for (var i = 0; i<200; i++){
+    for (var i = 0; i<500; i++){
       items.push(this.randomInteger(500));
       //this.items.push(<Bar value={90} />);
     }
